@@ -1,0 +1,114 @@
+---
+title: "Propuesta del proyecto"
+author: "Victor Marcano, José Gonzalez, Omar Cartaya y Valeria Rinaldi"
+date: "2022-12-01"
+output: 
+ 
+    html_document:
+      
+      toc: true
+      
+      toc_depth: 5
+      
+      toc_float:
+        
+        collapsed: true
+        
+        smooth_scroll: true
+        
+        code_folding: hide
+        
+        ioslides_presentation: default
+        
+        mainfont: Times New Roman
+---
+# Propuesta del Proyecto
+
+### Miembros del equipo
+
+Los miembros que conformarán el equipo de este proyecto serán los siguientes:
+ 
+ **Cartaya, Omar**
+ 
+ **Gonzalez, José**
+ 
+ **Marcano, Victor**
+ 
+ **Rinaldi, Valeria**
+ 
+### interrogantes a ser contestadas
+ 
+ Las interrogantes a ser contestadas son las siguiente en el proyecto final serán las siguientes:
+
+**_1. ¿Cuales seran el minimo y el maximo de muertes ocasionadas por problemas respiratorios y afecciones cardiacas?_**
+
+**_2. ¿Existe una tendencia en la calidad del aire medida con el Dioxido de Nitrogeno y el Ozono?_**
+
+**_3. ¿Cual seria la tendencia en con las muertes ocasionadas por problemas respiratorios y afecciones cardiacas?_**
+
+**_4. Dentro de una cierta cantidad de distritos seleccionados,¿ cómo seria la comparación entre estos mismos distritos medida en muertes ocasionadas por problemas respiratorios y afecciones cardiacas?_**
+
+**_5. ¿El Ozono por su movimiento a lo largo del tiempo, seria una variable significativa para medir la calidad del aire?_**
+
+**_6. ¿El Dioxido de Nitrogeno es una variable que por su movimiento a lo largo del tiempo, seria significativo su estudio para medir la calidad del aire?_**
+
+**_7. Comparar el movimiento del dioxido de nitrogeno con los problemas cardiacos de los tres distritos más importantes de Nueva York_**
+
+**_8. Analizar mediante un histograma donde se puede localizar la mayor parte de problemas cardiacos en Nueva York en la actualidad y compararlo con el pasado_**
+
+**_9. Establecer una linea de regresion o una posible tendencia futura del comportamiento tanto del dioxido de nitrogeno y de los problemas cardiacos para Nueva york o en sus distritos_**
+
+**_10. Establecer una reflexión sobre a donde se dirigue la calidad del aire y esto como afecta los residentes de Nueva York_**
+
+
+### Titulo propuesto del proyecto
+
+**Determinar los efectos de la calidad del aire sobre la salud de los residentes de Nueva York para el periodo 2007-2021**
+
+### Justificación del topico elegido
+
+Según la Organización Mundial de la Salud “alrededor de 249 mil muertes prematuras fueron atribuibles a la contaminación del aire exterior y alrededor de 83 mil muertes prematuras fueron atribuibles a la contaminación del aire debido al uso de combustibles solidos en la vivienda en las Américas en 2016” (par.1). Estas muertes han causado, que la agenda global se centre en cómo el aire que se respira, afecta a la vida de todos quienes los respiran en especial a los más vulnerables, personas con enfermedades, niños, adultos mayores, entre otros. 
+
+Por ello, las principales ciudades del mundo  se encuentran midiendo variables como dióxido de carbono, nitrogeno, entre otros; para así conocer la contaminación existente y las políticas necesarias para llevarlas a cabo.Esto a su vez, va correlacionado con la iniciativa planteada despues de la burbuja inmobiliaria del 2008, donde se presentaron las bases de un futuro menos contaminador en el que la energia dominante del futuro seria la nuclear y la electrica, las cuales contaminan en una menor cantidad a la atmosfera y con ello al aire, siendo fundamental el monitoreo de la calidad del aire con el objetivo de verificar si las actividades de politica, economica y social estan impactando a la sociedad y con ello a la futura sociedad.
+
+
+### Descripción de los datos a utilizar 
+
+ Un ejemplo de ello, es la ciudad de Nueva York que en su pagina “data.cityofnewyork.us” recopila data sobre la calidad del aire, que será tomada para los efectos de la investigación, el cual consistirá de los siguientes elementos para el periodo 2007-2021:
+
+
+**Ozono**: Gas presente en la atmósfera, que en altas concentraciones “puede provocar daños en la salud como irritar el sistema respiratorio, agravar el asma y las enfermedades pulmonares crónicas, reducir la función pulmonar, disminuir la esperanza de vida” (par. 3).De esta manera, su concentracion es en _"partes por millón"_(lo cual significa la cantidad de uniades de una determinada sustancia que hay por cada millon de unidades del conjunto) y esta misma posee propiedades las cuales permiten absorber parte de la radiacion ultravioleta, pudiendose permitir estimar esta misma concentración en el ambiente en funcion de la atenuac
+ion de la misma.
+
+![](https://blogquimobasicos.files.wordpress.com/2020/04/efecto2.png?w=468&h=289.png)
+
+**Dióxido de nitrógeno**: Componente químico compuesto por nitrógeno y oxígeno, que en altas concentraciones puede “irritar los pulmones y disminuir la función pulmonar, así como disminuir la resistencia a infecciones respiratorias (...) aumento de la mucosidad de las vías altas respiratorias, lo que puede hacer aumentar las infecciones respiratorias” (par 4).De la misma manera que el Ozono, su concentración es en _"partes por millón"_, permitiendo medir los niveles de contaminacion entre muchas de las sustancias que emiten los vehiculos a motor.
+
+![](https://www.semana.com/resizer/iv6ULQMfc4tZw0j9MU88vfWEli8=/arc-anglerfish-arc2-prod-semana/public/PPHUI44WFJAG5K2ZLRL6JKML5M.jpg)
+
+**La calidad del aire**:  “La presencia o ausencia de varias sustancias y sus concentraciones son los principales factores determinantes de la calidad del aire. Debido a esto, la calidad del aire se expresa mediante la concentración o intensidad de contaminantes, la presencia de microorganismos, o la apariencia física. Ejemplos de contaminantes que son importantes indicadores de la calidad del aire son el dióxido de azufre y las partículas de polvo y suciedad. La apariencia física del aire se puede medir, por ejemplo, determinando la turbidez del aire” (par.3).
+
+![](https://www.redspira.org/images/Articulos/Educacion_Ambiental/Imagenes/Loteriajpg/15_El-indice-de-calidad-del-aire.jpg)
+
+
+**Problemas cardiacos**: Los datos a utilizar se referirian a la cantidad de muertes por problemas cardiacos o problemas respiratorios en Nueva York distribuidos en los diferentes distritos del mismo estado.Estas enfermedades cardiacas incluyen una gran variedad de afecciones que afectan al corazón, normalmente ocasionados por contaminaciones en el aire, endurecimiento de las arterias causadas y entre otras causas.
+
+![](https://isanidad.com/wp-content/uploads/2017/07/ecografia3d_riesgo_cardiovascular_portada_08072017_consalud-1.jpg)
+
+### Metodologia a utilizar para dar respuesta las preguntas
+
+Primeramente, sera necesario descargar la data correspondiente para medir la calidad del aire y de los problemas cardiacos, los cuales seran nuestras principales variables a medir. Para ellom primeramente se descargará el archivo _excel o csv_ de la pagina data.cityofnewyork.us, la cual estará referenciada en el apartado de referencias.
+
+Posteriormente a ello, se procesará la data mediante Rstudio usando todo lo visto en clase para depurar tanto la data como que esta sea entendible en el apartado analitico y estadistico, centrandonos de esta forma al momento de depurar la data en quedarnos con el _Dioxido de nitrogeno, el Ozono y los problemas cardiacos_, usando filter, select, merge, pivot_longer/wider separate y summarise, quedandonos sin los NA correspondientes. Dichos NA representaran numeros _"0"_, debido a que los indicadores que miden cada una de las variables, no precisamente se mediran de la misma manera para otra variable y viceversa, esto es porque dicha pagina donde obtendremos los datos establece un numero unico para cada observación tomada para cada dato, por lo que aquella observación que no se haya registrado para cada fecha al mismo tiempo que la otra, sera tomada por _0_.Despues de haber limpiado la data, se realizaran una serie diferente de graficos mediante la libreria **_ggplot_** con el cual poder realizar los diferentes graficos y obtener respuestas a las preguntas planteadas en este documento.
+
+
+### Referencias
+
+[Air Quality | NYC Open Data. (2022, 11 abril). data.cityofnewyork.us. https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
+
+[Calidad de aire. (s. f.). https://infoaireperu.minam.gob.pe/calidad-de-aire/]( https://infoaireperu.minam.gob.pe/calidad-de-aire/)
+
+´[Desastres, C. N. D. P. de. (s. f.). El ozono como contaminante del aire y riesgo para la salud. gob.mx. https://www.gob.mx/cenapred/articulos/el-ozono-como-contaminante-del-aire-y-riesgo-para-la-salud](https://www.gob.mx/cenapred/articulos/el-ozono-como-contaminante-del-aire-y-riesgo-para-la-salud)
+
+[Salud, M. (s. f.). Dióxido de nitrógeno y Salud. Página de Salud Pública del Ayuntamiento de Madrid. https://madridsalud.es/dioxido-de-nitrogeno-y-salud/](https://madridsalud.es/dioxido-de-nitrogeno-y-salud/)
+
